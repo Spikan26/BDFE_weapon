@@ -7,7 +7,7 @@ function parseCsv(csv){
   var cols_header = rows[0].split(',');
   var table_header = '<tr>'
 
-  for (var k = 1; k < cols_header.length ; k++){
+  for (var k = 0; k < cols_header.length ; k++){
     table_header += '<td>'+cols_header[k]+'</td>'
   }
 
@@ -21,9 +21,11 @@ function parseCsv(csv){
   	var cols = rows[i].split(',');
 
     //Col
-  	for (var j = 1; j < cols.length ; j++){
+  	for (var j = 0; j < cols.length ; j++){
   		
-      if(j == 1){
+      if(j == 0){
+        table_current += "<td class='picture "+cols[j]+"'><img style='height:75px; width:75px;' src='weapon_img/"+cols[j]+".png'></td>"
+      } else if (j == 1) {
         //Add link to img for the JP name
         table_current += "<td class='weapon_picture' id='"+cols[0]+"'>"+cols[j]+"</td>"
       } else if (j == 3) {
