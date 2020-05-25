@@ -1,0 +1,8 @@
+Link,Name JP,Name ENG,Element,Rarity,Slot,WeaponType,Auto Target,Auto BP,Auto Type,Auto Speed,Auto Power,Auto Effect,Special Target,Special Cost,Special Type,Special Cooldown,Special Power,Special Effect,Awaken,Slot Effect
+KNIGHT1,機神兵ギギガグゴ,Mechanical,Earth,5,1,Sword,Simple,4 BP,Physical,5.0,160,Critical Power +50 [30%],Simple,15 BP,Physical,155,615,Power +250 when Pdef is boosted,Special Power +100,BP cost -3
+KNIGHT2,極楽鳥の重翼刃,Paradise,Fire,5,1,Sword,Self,4 BP,Buff,5.0, - ,Pdef/Mdef +15% (35sec),Self,12 BP,Buff,145, - ,Regen II (60sec); Pdef/Mdef +30% (120sec),BP cost -2,BP cost -2
+KNIGHT3,天聖剣バルビューダ,Barbut,Wind,5,1,Sword,Simple,4 BP,Physical,5.0,165,Power +25 [30%],Simple,15 BP,Physical,150,565,50% HP Absorb when HP < 50%,Special Power +100,BP cost -3
+KNIGHT4,イービルレンテの翼幕,Evilente,Water,5, - ,Sword,Simple,4 BP,Physical,5.0,165,Aggro +1 against fire,Simple,15 BP,Physical,155,495,Fire Aggro,Special Power +100, - 
+KNIGHT5,コスモカイザー,Cosmokaiser,Earth,5, - ,Sword,Simple,4 BP,Physical,5.0,165,Aggro +1 against water,Simple,15 BP,Physical,155,505,Water Aggro,Special Power +100, - 
+KNIGHT6,恩寵剣ハートネイズ,Grace,Water,5,1,Sword,Simple,4 BP,Physical,5.0,155,Aim 100% when Pdef is boosted,Simple,16 BP,Physical,160,585,Self HP Max +50% (180sec),Special Power +100,BP cost -3
+KNIGHT7,聖龍鱗の大牙剣,Holy Dragon,Fire,5, - ,Sword,Simple,4 BP,Physical,5.0,165,Aggro +1 against wind,Simple,15 BP,Physical,155,505,Wind Aggro,Special Power +100, - 

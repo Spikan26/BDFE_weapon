@@ -1,0 +1,38 @@
+#table_container {
+	background-color: aliceblue;
+	width: 80%;
+	text-align: center;
+	margin: 0 auto;
+	padding: 15px;
+	border-radius: 15px;
+}
+
+div.dataTables_wrapper {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+.modal-content {
+	width: auto;
+	align-items: center;
+	position: absolute;
+  	left: 50%;
+  	top: 50%;
+  	transform: translate(-50%, -50%);
+}
+
+
+.weapon_picture {
+	 color: blue;
+	 text-decoration: underline;
+}
+
+
+.element_icon {
+	text-align: left;
+}
+
+.Earth { background-color: #fff591; }
+.Water { background-color: #91daff; }
+.Fire { background-color: #ffac91; }
+.Wind { background-color: #9eff91; }
